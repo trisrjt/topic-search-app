@@ -27,3 +27,6 @@ A simple React-based application to search academic topics by name and category.
 **Clone the repository**  
    git clone https://github.com/trisrjt/topic-search-app.git
    cd topic-search-app
+
+## Video file 
+- Uploaded in the Github repo
