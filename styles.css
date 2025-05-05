@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background: #f0f4f8;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .search-box {
+    padding: 12px;
+    width: calc(100% - 24px); 
+    font-size: 16px;
+    margin: 20px auto;
+    border: 2px solid #0077cc;
+    border-radius: 6px;
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  .search-box:focus {
+    border-color: #005fa3;
+    outline: none;
+  }
+  
+  .topics-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .topic-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e6f2ff;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .topic-card:hover {
+    background-color: #cce6ff;
+    transform: scale(1.02);
+  }
+  
+  .topic-card h3 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+    color: #004080;
+  }
+  
+  .topic-card p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+  }
+
+  
+  .social-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .github-btn,
+  .linkedin-btn {
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .github-btn:hover {
+    background-color: #6e5494;
+    transform: scale(1.1);
+  }
+  
+  .linkedin-btn:hover {
+    background-color: #0077b5;
+    transform: scale(1.1);
+  }
+  
